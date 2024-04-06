@@ -1,0 +1,66 @@
+/* styles.qss */
+
+/* 应用全局样式以提高一致性 */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* 应用样式于主窗口 */
+MainWindow {
+    background-color: #fdfb01;
+}
+
+/* 应用样式于文本浏览器 */
+QTextBrowser {
+    background-color: #FFFF99;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 应用样式于分隔线 */
+QFrame#line {
+    background-color: #D9D9D9;
+}
+
+/* 应用样式于标签 */
+QLabel {
+    font-size: 25px;
+}
+
+/* 应用样式于单行编辑框 */
+QLineEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+/* 应用样式于按钮 */
+QPushButton {
+    background-color: #4cafaf;
+    color: #FFFFFF;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* 按钮的悬停效果 */
+QPushButton:hover {
+    background-color: #45a049;
+    border: 1px solid #45a049;
+}
+
+/* 应用样式于小按钮 */
+QPushButton#pushButton_help {
+    font-size: 25px;
+}
+
+/* 小按钮的悬停效果 */
+QPushButton#pushButton_help:hover {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    color: #000000;
+}
